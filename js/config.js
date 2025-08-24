@@ -123,7 +123,6 @@ const API_SITES = {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
         adult: true
-    }
     },
     yinghua: {
         api: 'https://m3u8.apiyhzy.com',
