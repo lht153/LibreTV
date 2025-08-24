@@ -1,7 +1,7 @@
 {
-    "name": "LibreTV",
-    "short_name": "LibreTV",
-    "description": "免费在线视频搜索与观看平台",
+    "name": "YuHuanTV",
+    "short_name": "YuHuanTV",
+    "description": "你的影视站",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0f1622",
@@ -10,7 +10,7 @@
     "apple-mobile-web-app-status-bar-style": "black",
     "icons": [
       {
-        "src": "image/logo-black.png",
+        "src": "image/YuHuanTVlogo.png",
         "sizes": "512x512",
         "type": "image/png"
       }
