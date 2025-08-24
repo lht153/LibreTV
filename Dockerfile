@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
-LABEL maintainer="LibreTV Team"
-LABEL description="LibreTV - 免费在线视频搜索与观看平台"
+LABEL maintainer="YuHuanTV Team"
+LABEL description="YuHuanTV | 你的下一个影视站"
 
 # 设置环境变量
 ENV PORT=8080
