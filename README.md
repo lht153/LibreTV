@@ -1,14 +1,14 @@
 # LibreTV - 免费在线视频搜索与观看平台
 
 <div align="center">
-  <img src="image/logo.png" alt="LibreTV Logo" width="120">
+  <img src="image/YuHuanTVlogo.png" alt="LibreTV Logo" width="120">
   <br>
-  <p><strong>自由观影，畅享精彩</strong></p>
+  <p><strong>你的影视站</strong></p>
 </div>
 
 ## 📺 项目简介
 
-LibreTV 是一个轻量级、免费的在线视频搜索与观看平台，提供来自多个视频源的内容搜索与播放服务。无需注册，即开即用，支持多种设备访问。项目结合了前端技术和后端代理功能，可部署在支持服务端功能的各类网站托管服务上。**项目门户**： [libretv.is-an.org](https://libretv.is-an.org)
+YuHuanTV 是一个轻量级、免费的在线视频搜索与观看平台，提供来自多个视频源的内容搜索与播放服务。无需注册，即开即用，支持多种设备访问。项目结合了前端技术和后端代理功能，可部署在支持服务端功能的各类网站托管服务上。**项目门户**： [libretv.is-an.org](https://www.317188.xyz)
 
 本项目基于 [bestK/tv](https://github.com/bestK/tv) 进行重构与增强。
 
@@ -158,7 +158,7 @@ LibreTV 支持标准的苹果 CMS V10 API 格式。添加自定义 API 时需遵
 
 ## ⚠️ 免责声明
 
-LibreTV 仅作为视频搜索工具，不存储、上传或分发任何视频内容。所有视频均来自第三方 API 接口提供的搜索结果。如有侵权内容，请联系相应的内容提供方。
+YuHuanTV 仅作为视频搜索工具，不存储、上传或分发任何视频内容。所有视频均来自第三方 API 接口提供的搜索结果。如有侵权内容，请联系相应的内容提供方。
 
 本项目开发者不对使用本项目产生的任何后果负责。使用本项目时，您必须遵守当地的法律法规。
 
@@ -168,9 +168,3 @@ LibreTV 仅作为视频搜索工具，不存储、上传或分发任何视频内
 
 - **[MoonTV](https://github.com/senshinya/MoonTV)**  
 - **[OrionTV](https://github.com/zimplexing/OrionTV)**  
-
-## 🥇 感谢支持
-
-- **[Sharon](https://sharon.io)**
-- **[ZMTO](https://zmto.com)**
-- **[YXVM](https://yxvm.com)**  
