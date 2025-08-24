@@ -1,7 +1,7 @@
 # LibreTV - 免费在线视频搜索与观看平台
 
 <div align="center">
-  <img src="image/YuHuanTVlogo.png" alt="YuHuanTV Logo" width="120">
+  <img src="https://tv.317188.xyz/image/YuHuanTVLogo.png" alt="YuHuanTV Logo" width="120">
   <br>
   <p><strong>你的影视站</strong></p>
 </div>
