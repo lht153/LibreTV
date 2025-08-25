@@ -1,7 +1,7 @@
 # YuHuanTV | 你的下一个影视站
 
 <div align="center">
-  <img src="https://tv.317188.xyz/image/YuHuanTVLogo.png" alt="YuHuanTV Logo" width="120">
+  <img src="https://tv.317188.xyz/image/YuHuanTVLogonew.png" alt="YuHuanTV Logo" width="120">
   <br>
   <p><strong>YuHuanTV | 你的下一个影视站</strong></p>
 </div>
