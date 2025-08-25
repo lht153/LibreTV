@@ -14,7 +14,7 @@ YuHuanTV 是一个轻量级、免费的在线视频搜索与观看平台，提�
 
 <details>
   <summary>点击查看项目截图</summary>
-  <img src="https://tv.317188.xyz/image/YuHuanTV.png" alt="项目截图" style="max-width:600px">
+  <img src="https://tv.317188.xyz/image/YuHuanTV2.png" alt="项目截图" style="max-width:600px">
 </details>
 
 ## 🚨 重要声明
