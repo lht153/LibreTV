@@ -18,7 +18,75 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
+<style>
+    :root {
+      --bar-height: 30px;        /* 公告栏高度 */
+      --scroll-duration: 30s;    /* 完整滚动一轮时间（越小越快） */
+    }
+
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Microsoft YaHei", sans-serif; }
+
+    .notice-bar {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 1200px;
+      height: var(--bar-height);
+      line-height: var(--bar-height);
+      background: rgba(255,255,255,0.2);
+      backdrop-filter: blur(6px);
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.2);
+      overflow: hidden;
+      z-index: 9999;
+      white-space: nowrap;
+    }
+
+    .notice-track {
+      display: inline-flex;
+      gap: 500px; /* 公告之间的间隔 */
+      animation: scroll-left var(--scroll-duration) linear infinite;
+      will-change: transform;
+    }
+
+    .notice-item {
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .notice-bar:hover .notice-track {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll-left {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+  </style>
+    
 <body class="page-bg text-white">
+
+<div class="notice-bar">
+    <div class="notice-track" id="noticeTrack">
+      <div class="notice-item">🎉 <b>七夕快乐</b>！七夕良宵，愿你所遇皆良人，所念皆回应，所愿皆成真。 🎉</div>
+      <div class="notice-item">🔥YuHuanTV | 你的下一个影视站（本站）不管是电影、电视剧还是动漫 无需注册 统统免费看 🔥</div>
+      <div class="notice-item">💡 小提示：<a href="https://blog.317188.xyz">我的博客</a>内有更多实用工具哦！</div>
+      <div class="notice-item">祝各位观影快乐！</div>
+    </div>
+  </div>
+
+  <script>
+    // 为实现无缝循环，把公告内容复制一份拼接在后面
+    (function initNoticeMarquee() {
+      const track = document.getElementById('noticeTrack');
+      const clone = track.cloneNode(true);
+      while (clone.firstChild) track.appendChild(clone.firstChild);
+    })();
+  </script>
+    
     <!-- 将历史记录按钮移到左上角，并缩小尺寸 -->
     <div class="fixed top-4 left-4 z-10">
         <button onclick="toggleHistory(event)" class="bg-[#222] hover:bg-[#333] border border-[#333] hover:border-white rounded-lg px-3 py-1.5 transition-colors" aria-label="观看历史">
